@@ -1,0 +1,30 @@
+import java.util.*;
+class TakeInput
+{
+public static void main(String args[])
+{
+System.out.println("Enter a number");
+//if we want to take a input from the user then we write like that and import util package in java.
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+System.out.println("Enter a float type data or number");
+float dice=sc.nextFloat();
+System.out.println("Enter a long data type number");
+long num=sc.nextLong();
+System.out.println("Enter a double data type number");
+double number=sc.nextDouble();
+System.out.println("Enter a character");
+char ch=sc.next().charAt(0);
+System.out.println("Enter a boolean data type");
+boolean is=sc.nextBoolean();
+System.out.println("Enter a String data type");
+String name=sc.next();
+System.out.println(n);
+System.out.println(dice);
+System.out.println(num);
+System.out.println(number);
+System.out.println(ch);
+System.out.println(is);
+System.out.println(name);
+}
+}
